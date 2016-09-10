@@ -1,0 +1,69 @@
+\documentclass[14pt]{extarticle}
+\usepackage[utf8]{inputenc}
+\newtheorem{definition}{Определение}
+\newtheorem{theorem}{Теорема}
+\newtheorem{lemma}{Лемма}
+\newtheorem{statement}{Утверждение}
+\newtheorem{remark}{Замечание}
+\newtheorem{fail}{Возможная ошибка. Обратите внимание.}
+\newtheorem{thesis}{Гипотеза}
+
+\newcommand{\argmin}{\mathop{\mathrm{argmin}}}
+\newcommand{\argmax}{\mathop{\mathrm{argmax}}}
+\newcommand{\geom}{\mathrel{\mbox{\bfseries \makebox[0pt][c]{\hspace{1em}\raisebox{1ex}.}---}}}
+
+\usepackage {amsmath}
+\usepackage [T2A] {fontenc}
+%\usepackage [cp1251] {inputenc}
+\usepackage [russian] {babel}
+\usepackage {graphicx, epstopdf}
+\usepackage {a4wide}
+\usepackage {amsfonts}
+\usepackage {amssymb}
+\usepackage {indentfirst}	
+%\usepackage {cmap}                        % Поддержка поиска русских слов в PDF (pdflatex)
+\usepackage {wrapfig}
+\usepackage {subfig}
+\usepackage{blindtext}
+\usepackage{tikz, pgfplots}
+\usepackage{cancel}
+\usepackage{ulem}
+%\usepackage[ruled,section]{algorithm}
+%\usepackage[noend]{algorithmic}
+%\usepackage{algorithm}
+%\usepackage[noend]{algpseudocode}
+\usepackage[]{algorithm2e}
+\usetikzlibrary{positioning,arrows,shapes,shadows}
+
+\newenvironment{proof}{\par\noindent{\bf Доказательство.}}{\hfill$\scriptstyle\blacksquare$} 
+\begin{document}
+
+    \input{titul.tex}
+    \tableofcontents
+    \newpage
+    \input{intro.tex} \clearpage
+    \input{matrix_case.tex} \clearpage
+    \input{tensor_case.tex}\clearpage
+    \input{conclusion.tex}\clearpage
+  %  \input{concl.tex}\clearpage
+    \begin{thebibliography}{100}
+        \bibitem{6}
+        {\it Emmanuel J Candes, Benjamin Recht}
+            Exact matrix completion via convex optimization // Foundation of Computational mathematics, 2009, pp. 717-772
+        \bibitem{7}
+        {\it Emmanuel J Candes, Terence Tao}
+            The power of convex relaxation: Near-optimal matrix completion// Information Theory, IEEE Transactions on, 2010, pp.2053-2080
+        \bibitem{13}
+		{\it David Gross}
+           Recovering low-rank matrices from few coefficients in a new basis // Information Theory, IEEE Transactions on, 2011, pp. 1548-1566.
+        \bibitem{21}
+        {\it  Benjamin Recht}
+              A simpler approach to matrix completion // The Journal of Machine Learning Research, 2011, pp. 3413-3430.
+        \bibitem{32}
+        {\it J. Hastad}
+              Tensor rank is NP-complete // J.of Algorithms 11, 1990, pp. 644–654.
+       \bibitem{л}
+        {\it щшо  }
+               How to find a good submatrix // Matrix Methods: Theory, Algorithms, Applications, 2010, pp. 247-256.
+    \end{thebibliography}
+\end{document} 
