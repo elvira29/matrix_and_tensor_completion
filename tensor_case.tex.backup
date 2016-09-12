@@ -65,19 +65,11 @@
            \begin{figure}[ht!]
               \includegraphics[width=0.7\textwidth]{src/Simple_TT_updated.png}
                \caption{$T \in R^{15\times 15\times 15 \times 15},\  r_1=r_2=r_3 = 3$}
-           \label{ris:image1}
+           Видно, что сходимость метода переменных направлений довольна медленная. 
+          \label{ris:image1}
         \end{figure}
-        Видно, что сходимость метода переменных направлений довольна медленная. Однако для тензора размера $10\times 10
-           \times 10$ удалось подобрать такие параметры $\alpha$ и $\beta$, что относительная погрешность решения вела себя гораздо 
-           лучше. (Рис. 4)
-           \begin{figure}[ht!]
-              \includegraphics[width=0.7\textwidth]{src/dependence_of_m.png}
-               \caption{$T \in R^{ 10\times 10 \times 10},\  r_1=r_2=3$}
-           \label{ris:image1}
-        \end{figure}
-        \par На Рис.5 изображена фазовая диаграмма, отображающая степень восcтановления тензора той же размерности для $N= 15$
+        \par На Рис.4 изображена фазовая диаграмма, отображающая степень восcтановления тензора той же размерности для $N= 15$
              запусков алгоритма. 
-           \begin{figure}[ht!]
              \includegraphics[width=0.7\textwidth]{src/diagram.png}
               \caption{$T \in R^{15\times 15\times 15 \times 15},\  r_1=r_2=r_3 = 3$}
           \label{ris:image1}

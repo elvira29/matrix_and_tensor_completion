@@ -41,11 +41,12 @@
     \input{titul.tex}
     \tableofcontents
     \newpage
+
     \input{intro.tex} \clearpage
-    \input{matrix_case.tex} \clearpage
-    \input{tensor_case.tex}\clearpage
-    \input{conclusion.tex}\clearpage
-  %  \input{concl.tex}\clearpage
+    \input{chp1.tex} \clearpage
+    \input{chp2.tex}\clearpage
+    \input{chp3.tex}\clearpage
+    \input{concl.tex}\clearpage
     \begin{thebibliography}{100}
         \bibitem{6}
         {\it Emmanuel J Candes, Benjamin Recht}
@@ -59,17 +60,11 @@
         \bibitem{21}
         {\it  Benjamin Recht}
               A simpler approach to matrix completion // The Journal of Machine Learning Research, 2011, pp. 3413-3430.
-        \bibitem{32}
-        {\it J. Hastad}
-              Tensor rank is NP-complete // J.of Algorithms 11, 1990, pp. 644–654.
-       \bibitem{33}
-        {\it Cun Mu, Bo Huang, John Wright, Donald Goldfarb}
-               Square Deal: Lower Bounds and Improved Relaxations for Tensor Recovery // arXiv:1307.5870, Aug 2013 
-        \bibitem{34}
-        {\it Ho N. Phien, Hoang D. Tuan, Johann A. Bengua and Minh N. Do}
-           Efficient tensor completion - low rank tensor train // arXiv:1601.01083, Jan 2016
-         \bibitem{35}
-        {\it I.V. Oseledets}
-           Tensor Train Decompsition // SIAM J. Sci. Comput., 2011, pp. 2295–2317.
+        \bibitem{Tyrtyshnikov 2000}
+        {\it Tyrtyshnikov E. E.}
+              Incomplete cross approximation in the mosaic–skeleton method // Computing, 2000, pp. 367–380.
+       \bibitem{Oseledets 2010}
+        {\it S. A. Goreinov, I. V. Oseledets, D. V. Savostyanov et al.}
+               How to find a good submatrix // Matrix Methods: Theory, Algorithms, Applications, 2010, pp. 247-256.
     \end{thebibliography}
 \end{document} 
